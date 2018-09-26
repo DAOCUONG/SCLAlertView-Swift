@@ -535,7 +535,7 @@ open class SCLAlertView: UIViewController {
         txt.layer.borderWidth = 1.0
         
         if title != nil {
-            txt.placeholder = title!
+            txt.text = title!
         }
         
         contentView.addSubview(txt)
