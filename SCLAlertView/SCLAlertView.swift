@@ -400,7 +400,7 @@ open class SCLAlertView: UIViewController {
         txt.layer.masksToBounds = true
         txt.layer.borderWidth = 1.0
         if title != nil {
-            txt.placeholder = title!
+            txt.text = title!
         }
         contentView.addSubview(txt)
         inputs.append(txt)
